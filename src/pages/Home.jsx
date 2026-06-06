@@ -1,0 +1,29 @@
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
+function Home() {
+  const navigate = useNavigate();
+
+  return (
+    <div className="page">
+      <section id="hero">
+        <div className="hero-inner">
+          <div className="hero-text">
+            <p className="hero-greeting">Hi, I'm</p>
+            <h1 className="hero-name">Phoutdavanh<br />Stmn</h1>
+            <p className="hero-role">Aspiring <span className="hero-accent">Backend Developer</span></p>
+            <p className="hero-tagline">Clean APIs. Solid Architecture. Real Code.</p>
+            <button className="hero-btn" onClick={() => navigate('/projects')}>View my work →</button>
+          </div>
+          <div className="hero-photo">
+            <div className="hero-photo-placeholder">
+              PHOTO<br /><span>400 × 500 px</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default Home;
