@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Navbar({ theme, toggleTheme }) {
+function Navbar({ theme, toggleTheme, onContactClick }) {
   return (
     <nav id="navbar">
       <div className="nav-inner">
@@ -11,10 +11,22 @@ function Navbar({ theme, toggleTheme }) {
           <Link to="/skills">Skills</Link>
           <Link to="/projects">Projects</Link>
           <Link to="/certifications">Certifications</Link>
-          <Link to="/" className="nav-cta">Contact Me</Link>
+          <button 
+            className="nav-cta"
+            onClick={onContactClick}
+            style={{
+              background: 'none',
+              border: 'none',
+              padding: '0',
+              cursor: 'pointer',
+              font: 'inherit'
+            }}
+          >
+            Contact Me
+          </button>
         </div>
         <button id="theme-toggle" onClick={toggleTheme}>
-          {theme === 'dark' ? '☀' : '☾'}
+          {theme === 'dark' ? '☀' : '🌙'}
         </button>
       </div>
     </nav>

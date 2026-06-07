@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ContactModal from './components/ContactModal';
 import Home from './pages/Home';
 import About from './pages/About';
 import Skills from './pages/Skills';
@@ -11,6 +12,7 @@ import './App.css';
 
 function App() {
   const [theme, setTheme] = React.useState('dark');
+  const [showContactModal, setShowContactModal] = React.useState(false);
 
   React.useEffect(() => {
     const saved = localStorage.getItem('theme') || 'dark';
@@ -28,7 +30,11 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <Navbar theme={theme} toggleTheme={toggleTheme} />
+        <Navbar 
+          theme={theme} 
+          toggleTheme={toggleTheme}
+          onContactClick={() => setShowContactModal(true)}
+        />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -37,6 +43,7 @@ function App() {
           <Route path="/certifications" element={<Certifications />} />
         </Routes>
         <Footer />
+        <ContactModal isOpen={showContactModal} onClose={() => setShowContactModal(false)} />
       </div>
     </Router>
   );

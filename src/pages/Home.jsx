@@ -11,8 +11,8 @@ function Home() {
           <div className="hero-text">
             <p className="hero-greeting">Hi, I'm</p>
             <h1 className="hero-name">Phoutdavanh<br />Stmn</h1>
-            <p className="hero-role">Aspiring <span className="hero-accent">Backend Developer</span></p>
-            <p className="hero-tagline">Clean APIs. Solid Architecture. Real Code.</p>
+            <p className="hero-role">Aspiring <span className="hero-accent">QA / Software Tester</span></p>
+            <p className="hero-tagline">Find bugs before users do.</p>
             <button className="hero-btn" onClick={() => navigate('/projects')}>View my work →</button>
           </div>
           <div className="hero-photo">

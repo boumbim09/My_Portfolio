@@ -6,11 +6,11 @@ function Footer() {
       <div className="footer-inner">
         <div className="footer-left">
           <div className="nav-logo" style={{ marginBottom: '12px' }}>&lt;PD.dev/&gt;</div>
-          <p className="footer-desc">Backend Developer. Node.js &amp; Express.<br />Open for internship opportunities.</p>
+          <p className="footer-desc">QA / Software Tester.<br />Open for internship opportunities.</p>
         </div>
         <div className="footer-mid">
           <div className="footer-col-title">Quick Links</div>
-          <a href="/">About</a>
+          <a href="/">About Me</a>
           <a href="/">Skills</a>
           <a href="/">Projects</a>
           <a href="/">Certifications</a>
