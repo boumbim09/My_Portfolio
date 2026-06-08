@@ -16,9 +16,7 @@ function Home() {
             <button className="hero-btn" onClick={() => navigate('/projects')}>View my work →</button>
           </div>
           <div className="hero-photo">
-            <div className="hero-photo-placeholder">
-              PHOTO<br /><span>400 × 500 px</span>
-            </div>
+            <img src="/photo.jpeg" alt="Phoutdavanh" />
           </div>
         </div>
       </section>

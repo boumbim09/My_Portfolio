@@ -19,7 +19,7 @@ function Footer() {
           <div className="footer-col-title">Connect</div>
           <a href="mailto:boumphoutdavan@gmail.com">↗ Email</a>
           <a href="https://github.com/boumbim09" target="_blank" rel="noreferrer">↗ GitHub</a>
-          <a href="https://wa.me/02098560787" target="_blank" rel="noreferrer">↗ WhatsApp</a>
+          <a href="https://wa.me/02099167997" target="_blank" rel="noreferrer">↗ WhatsApp</a>
         </div>
       </div>
       <div className="footer-bottom">© 2025 Phoutdavanh Stmn. All rights reserved.</div>

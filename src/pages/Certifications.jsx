@@ -7,8 +7,17 @@ function Certifications() {
       name: 'IBM Back-End Development',
       issuer: 'IBM / Coursera',
       year: '2026',
+      image: '/cert-ibm.png',
       link: 'https://www.coursera.org/account/accomplishments/verify/9JOTG5EFBFRG'
     },
+     {
+    id: 2,
+    name: 'EFSET English Test',
+    issuer: 'EF Standard English Test',
+    year: '2026',
+    image: '/cert-efset.png',
+    link: 'https://cert.efset.org/en/9aHPa3'
+  },
 
   ];
 

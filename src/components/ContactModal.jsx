@@ -116,7 +116,7 @@ function ContactModal({ isOpen, onClose }) {
                 onMouseEnter={(e) => e.target.style.color = 'var(--accent)'}
                 onMouseLeave={(e) => e.target.style.color = 'var(--text)'}
               >
-                +856 2 0985 60787
+                +856 2 0999167997
               </a>
             </div>
 
@@ -130,7 +130,7 @@ function ContactModal({ isOpen, onClose }) {
                 color: 'var(--text)',
                 fontSize: '0.95rem'
               }}>
-                khamhoung, Xaithany, Vientiane Capital
+                Khamhoung, Xaithany, Vientiane Capital
               </span>
             </div>
           </div>
@@ -219,7 +219,7 @@ function ContactModal({ isOpen, onClose }) {
               </a>
 
               <a
-                href="https://wa.me/2098560787"
+                href="https://wa.me/2099167997"
                 target="_blank"
                 rel="noreferrer"
                 style={{

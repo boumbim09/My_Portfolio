@@ -27,14 +27,14 @@
   --accent: #111111;
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0;  font-family: 'Noto Serif Lao', serif; }
 
 html { scroll-behavior: smooth; }
 
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 17px;
   transition: background 0.3s, color 0.3s;
 }
@@ -60,7 +60,7 @@ body {
   gap: 32px;
 }
 .nav-logo {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 1rem;
   font-weight: 700;
   color: var(--text);
@@ -74,7 +74,7 @@ body {
   gap: 32px;
 }
 .nav-links a {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 0.78rem;
   color: var(--muted);
   text-decoration: none;
@@ -134,14 +134,14 @@ body {
   letter-spacing: 0.1em;
 }
 .hero-name {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Noto Serif Lao', serif;
   font-size: clamp(2.4rem, 5vw, 4rem);
   font-weight: 600;
   line-height: 1.1;
   letter-spacing: -0.02em;
 }
 .hero-role {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 1.3rem;
   color: var(--muted);
 }
@@ -152,7 +152,7 @@ body {
   padding-bottom: 1px;
 }
 .hero-tagline {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 0.82rem;
   color: var(--muted);
   letter-spacing: 0.06em;
@@ -164,7 +164,7 @@ body {
   gap: 8px;
   margin-top: 8px;
   width: fit-content;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 0.85rem;
   color: var(--text);
   text-decoration: none;
@@ -192,7 +192,7 @@ body {
 }
 .hero-photo img { width: 100%; height: 100%; object-fit: cover; }
 .hero-photo-placeholder {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 0.75rem;
   color: var(--muted);
   text-align: center;
@@ -209,14 +209,14 @@ section { border-bottom: 1px solid var(--border); }
   padding: 80px 48px;
 }
 .section-title-center {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 2rem;
   font-weight: 600;
   text-align: center;
   margin-bottom: 16px;
 }
 .section-title-left {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -230,7 +230,7 @@ section { border-bottom: 1px solid var(--border); }
   margin-bottom: 40px;
 }
 .hover-hint {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 0.75rem;
   color: var(--muted);
   letter-spacing: 0.08em;
@@ -263,7 +263,7 @@ section { border-bottom: 1px solid var(--border); }
 .about-card:hover { border-color: var(--text); }
 .about-card-icon { font-size: 1.6rem; }
 .about-card-title {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -281,7 +281,7 @@ section { border-bottom: 1px solid var(--border); }
   gap: 56px;
 }
 .skills-col-title {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 0.75rem;
   color: var(--muted);
   letter-spacing: 0.1em;
@@ -293,7 +293,7 @@ section { border-bottom: 1px solid var(--border); }
 .skills-grid { display: grid; gap: 18px; }
 .skill-row { display: flex; align-items: flex-start; gap: 20px; }
 .skill-label {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 0.75rem;
   color: var(--muted);
   letter-spacing: 0.06em;
@@ -306,7 +306,7 @@ section { border-bottom: 1px solid var(--border); }
   background: var(--tag-bg);
   border: 1px solid var(--tag-border);
   color: var(--text);
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 0.78rem;
   padding: 6px 13px;
   display: flex;
@@ -452,7 +452,7 @@ section { border-bottom: 1px solid var(--border); }
   justify-content: center;
   font-family: 'Space Mono', monospace;
   font-size: 0.85rem;
-  color: #fff;
+  color: #0f0000;
   opacity: 0;
   transition: opacity 0.2s;
   letter-spacing: 0.08em;

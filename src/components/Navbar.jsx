@@ -5,7 +5,7 @@ function Navbar({ theme, toggleTheme, onContactClick }) {
   return (
     <nav id="navbar">
       <div className="nav-inner">
-        <Link to="/" className="nav-logo">&lt;PD.dev/&gt;</Link>
+        <Link to="/" className="nav-logo">&lt;PD.WEB/&gt;</Link>
         <div className="nav-links">
           <Link to="/about">About</Link>
           <Link to="/skills">Skills</Link>
