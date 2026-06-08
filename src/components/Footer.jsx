@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <div className="footer-inner">
         <div className="footer-left">
-          <div className="nav-logo" style={{ marginBottom: '12px' }}>&lt;PD.dev/&gt;</div>
+          <div className="nav-logo" style={{ marginBottom: '12px' }}>&lt;PD.WEB/&gt;</div>
           <p className="footer-desc">QA / Software Tester.<br />Open for internship opportunities.</p>
         </div>
         <div className="footer-mid">

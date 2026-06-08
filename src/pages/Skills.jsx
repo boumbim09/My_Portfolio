@@ -262,7 +262,7 @@ function Skills() {
               >
                 <div style={{ fontSize: '2.4rem', marginBottom: '16px' }}>{service.icon}</div>
                 <div style={{
-                  fontFamily: "'Space Mono', monospace",
+                  fontFamily: "'Noto Serif Lao', serif",
                   fontSize: '0.95rem',
                   fontWeight: '700',
                   letterSpacing: '0.04em',

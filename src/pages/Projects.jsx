@@ -5,7 +5,7 @@ function Projects() {
     {
       id: 1,
       title: 'QA SauceDemo Testing',
-      description: 'ໂປຣເຈັກທົດສົບບໍລິການຊອບແວແບບ Manual Testing ບົນເວັບແອັບພລິເຄຊັນ Sauce Demo ເຊິ່ງຄອບຄຸມ ຟີເຈີ Login, Product, Cart ແລະ Checkout.',
+      description: 'ໂປຣເຈັກທົດສອບບໍລິການຊອບແວແບບ Manual Testing ບົນເວັບແອັບພິເຄຊັນ Sauce Demo ເຊິ່ງຄອບຄຸມ ຟີເຈີ Login, Product, Cart ແລະ Checkout.',
       stack: ['QA Testing', 'Manual Testing', 'Chrome', 'Excel'],
       thumbnail: 'https://raw.githubusercontent.com/boumbim09/My_Portfolio/main/public/projects/saucedemo.png',
       link: 'https://github.com/boumbim09/qa-saucedemo-testing'

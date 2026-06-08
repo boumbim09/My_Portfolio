@@ -14,13 +14,6 @@ function Navbar({ theme, toggleTheme, onContactClick }) {
           <button 
             className="nav-cta"
             onClick={onContactClick}
-            style={{
-              background: 'none',
-              border: 'none',
-              padding: '0',
-              cursor: 'pointer',
-              font: 'inherit'
-            }}
           >
             Contact Me
           </button>

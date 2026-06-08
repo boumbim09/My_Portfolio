@@ -27,7 +27,7 @@
   --accent: #111111;
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0;  font-family: 'Noto Serif Lao', serif; }
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Noto Serif Lao', serif; }
 
 html { scroll-behavior: smooth; }
 
@@ -82,16 +82,25 @@ body {
   transition: color 0.2s;
 }
 .nav-links a:hover { color: var(--text); }
+
+/* ── แก้ตรงนี้จุดเดียว ── */
 .nav-cta {
-  border: 1px solid var(--border) !important;
-  color: var(--text) !important;
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--muted);
   padding: 8px 18px;
-  transition: background 0.2s, color 0.2s !important;
+  font-family: 'Noto Serif Lao', serif;
+  font-size: 0.78rem;
+  font-weight: normal;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
 }
 .nav-cta:hover {
-  background: var(--text) !important;
-  color: var(--bg) !important;
+  background: var(--text);
+  color: var(--bg);
 }
+
 #theme-toggle {
   background: none;
   border: 1px solid var(--border);
@@ -128,7 +137,7 @@ body {
   gap: 16px;
 }
 .hero-greeting {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Space Mono', 'Noto Serif Lao', seriface;
   font-size: 0.9rem;
   color: var(--muted);
   letter-spacing: 0.1em;
@@ -177,8 +186,6 @@ body {
   background: var(--text);
   color: var(--bg);
 }
-
-/* Hero photo */
 .hero-photo {
   width: 320px;
   height: 420px;
@@ -202,7 +209,6 @@ body {
 
 /* ─── SECTION BASE ─── */
 section { border-bottom: 1px solid var(--border); }
-
 .section-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -236,7 +242,7 @@ section { border-bottom: 1px solid var(--border); }
   letter-spacing: 0.08em;
 }
 
-/* ─── ABOUT CARDS ─── */
+/* ─── ABOUT ─── */
 #about { background: var(--bg2); }
 .about-intro {
   font-size: 1rem;
@@ -347,7 +353,7 @@ section { border-bottom: 1px solid var(--border); }
 }
 .project-thumb img { width: 100%; height: 100%; object-fit: cover; }
 .thumb-placeholder {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Space Mono', 'Noto Serif Lao', seriface;
   font-size: 0.72rem;
   color: var(--muted);
   text-align: center;
@@ -357,7 +363,7 @@ section { border-bottom: 1px solid var(--border); }
 .thumb-placeholder span { font-size: 0.6rem; opacity: 0.5; }
 .project-body { padding: 24px; }
 .project-title {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -374,7 +380,7 @@ section { border-bottom: 1px solid var(--border); }
 }
 .project-stack { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
 .stack-tag {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 0.7rem;
   border: 1px solid var(--border);
   color: var(--muted);
@@ -384,7 +390,7 @@ section { border-bottom: 1px solid var(--border); }
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 0.78rem;
   color: var(--text);
   text-decoration: none;
@@ -436,7 +442,7 @@ section { border-bottom: 1px solid var(--border); }
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 0.78rem;
   color: var(--muted);
   text-align: center;
@@ -450,16 +456,16 @@ section { border-bottom: 1px solid var(--border); }
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 0.85rem;
-  color: #0f0000;
+  color: #f0f0f0;
   opacity: 0;
   transition: opacity 0.2s;
   letter-spacing: 0.08em;
 }
 .cert-thumb:hover .cert-overlay { opacity: 1; }
 .cert-name {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 0.85rem;
   font-weight: 700;
   margin-bottom: 4px;
@@ -486,7 +492,7 @@ footer {
   margin-top: 4px;
 }
 .footer-col-title {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 0.72rem;
   color: var(--muted);
   letter-spacing: 0.12em;
@@ -499,7 +505,7 @@ footer {
   gap: 10px;
 }
 .footer-mid a, .footer-right a {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 0.78rem;
   color: var(--muted);
   text-decoration: none;
@@ -511,7 +517,7 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px 48px 32px;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Serif Lao', serif;
   font-size: 0.7rem;
   color: var(--muted);
   border-top: 1px solid var(--border);
