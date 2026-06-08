@@ -122,7 +122,6 @@ function Projects() {
                     marginBottom: '20px',
                     flex: 1,
                     margin: 0,
-                    marginBottom: '20px'
                   }}>
                     {project.description}
                   </p>
